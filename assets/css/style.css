@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(73, 69, 69);
+    height: auto;
+}
+
+:root {
+    h1 {
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: white;
+        font-size: 30px;
+    }
+    p {
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    a {
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+}
+
+.icons {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+:root .card {
+    background: rgb(195,97,34);
+    background: linear-gradient(0deg, rgba(195,97,34,1) 0%, rgba(253,187,45,1) 100%);
+    border-radius: 0px;
+}
+
+:root .card-header {
+    display: flex;
+    flex: wrap;
+    align-items: center;
+    border-top-left-radius: 0px;
+    padding: 10px;
+}
+
+:root p {
+    align-items: center;
+    font-size: 25px;
+}
+
+
+:root nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    font-size: 14px;
+    padding-left: 15px;
+}
+
+:root a {
+    color: rgb(225, 221, 221);
+}
+
+:root .container {
+    margin: 25px;
+    width: auto;
+    
+}
+
+
+:root .button.is-primary {
+    background-color: rgb(167, 167, 167);
+}
